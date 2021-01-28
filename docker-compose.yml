@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  web:
+    build:
+      context: python
+    ports:
+    - 3010:254
+    volumes:
+    - ./app:/app
